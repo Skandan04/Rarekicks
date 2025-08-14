@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rarekicks</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="Home.html" class="logo-button">Rare kicks.</a>
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Newin.html">New in</a>
+        <a href="LuxuryItem.html">Luxury Items</a>
+        <a href="Footwear.html">Footwear</a>
+        <a href="Brands.html">Brands</a>
+        <a href="Luxurybrands.html">Luxurybrands</a>
+      </nav>
+
+      <div class="cart">
+        <a href="wishlist.html"><i class="bx bx-heart"></i></a>
+        <a href="cart.html"><i class="bx bx-cart"></i></a>
+        <a href="account.html"><i class="bx bx-user"></i></a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="contact-wrapper">
+        <!-- Google Map and Contact Info -->
+        <div class="map-contact">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4184.359660731612!2d77.58184619979968!3d12.959436120916704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15de1e8beb91%3A0x45a731927a7cc2a5!2sJain%20Deemed-to-be%20University%20-%20School%20of%20Sciences%20(Under-graduate)!5e1!3m2!1sen!2sin!4v1754327714768!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade""
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Rarekicks Location"
+            ></iframe>
+          </div>
+          <div class="contact-info">
+            <p>
+              <i class="bx bx-map"></i>Jain University School Of Sciences, JC
+              Road, 34, 1st Cross Rd, Near Ravindra Kalakshetra, Sampangi Rama
+              Nagara, Sudhama Nagar, Bengaluru, Karnataka 560027
+            </p>
+            <p><i class="bx bx-phone"></i>7406101990</p>
+            <p><i class="bx bx-mail-send"></i>ymskandan@mail.com</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form action="YOUR_SERVER_MAIL_HANDLER_URL" method="POST" novalidate>
+          <label for="name">Enter Your Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your full name"
+            required
+          />
+
+          <label for="email">Enter Your Email ID</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address"
+            required
+          />
+
+          <label for="subject">Enter Your Subject</label>
+          <textarea
+            name="subject"
+            id="subject"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
